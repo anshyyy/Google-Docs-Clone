@@ -14,7 +14,7 @@ class AuthRepository {
   void signInWithGoogle() async {
     const String url = "http://10.0.2.2:3000/api/v1/signUp";
     try {
-      print("helllloooooo");
+      print("helllasdasloooooo");
       final user = await _googleSignIn.signIn();
       print("helllo $user");
       if (user != null) {
